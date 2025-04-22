@@ -8,7 +8,7 @@ if(isset($_POST['submit']))
 { 
 $pid=$_POST['pid'];
 
-
+// sitara he sitara
 $sql="INSERT INTO tblbooking (package_id,userid) Values(:pid,:uid)";
 
 $query = $dbh -> prepare($sql);
